@@ -1,0 +1,25 @@
+the initialised data that is int a=10  is stored in data segment whereas only if uninitialised data that is int a is written its atored in bss segment 
+using of heap is dynamic 
+functions for dynamic memory allocation are calloc, malloc, realloc, free
+in malloc all the values are initialosed with garbage value whereas in calloc they are initialised with 0
+malloc synatx: int *ptr
+               ptr=(ptr_type*)malloc(no of blocks*size());
+calloc syntax: int *ptr
+               ptr=(ptr_type*)calloc(n,size());
+realloc is used to resize the old pointer 
+ptr=(ptr_type*)realloc(ptr,new_size_in_bytes);
+free is used to free the allocated memory
+free(ptr);
+
+for using dynamic allocation include stlib.h
+
+typedef is used to give a new name 
+syntax: typedef<old_name> <alias_name>
+generally usedwhen the oldname is very odd or long
+
+the major difference between structure and union is that in structure each memeber has been alloted with separate memory whereas in union all members have shared memory allocation which is equal to the greatest one 
+
+adt is abstarct data type whch tells about some features and operation that are performed in that data type
+it provides a model for its usage 
+abstraction means no worry about implemention that is mango khao guthlia mat gino
+for example in array set and get is direct but ghapla hota ha insertion and delition ma 
