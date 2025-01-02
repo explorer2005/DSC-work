@@ -1,0 +1,22 @@
+trees:-
+root:-topmost node 
+Parent:- node which connects to the child  
+child:- node which is connected by another node is its child 
+leaf/external nodes:- nodes with no children 
+internal node:- nodes with atleast one child 
+depth:-no of edges from top(root) to that node
+height:- no of edges from node to the deepest leaf  
+siblings:- nodes belonging to the same parent 
+degree:- no nodes its connected to niche
+
+binary:-
+at most 2 children for all the nodes 
+n nodes:- n-1 edges 
+degree of tree is the highest degree of a node in the tree 
+binary tree degree <=2
+
+types:-
+fullor strict tree:- 0 or 2 children of each node 
+perfect tree:-exactly 2 children and all leaf  nodes are on same level 
+complete binary tree:- if all levels are completely filled except possibly the last level + last level must have all keys left aligned 
+degenerate tree:- every parent node has exactly one child 2 types:-1 left skewed all child left and 2 right skewed all child right 
