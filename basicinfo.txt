@@ -20,3 +20,10 @@ fullor strict tree:- 0 or 2 children of each node
 perfect tree:-exactly 2 children and all leaf  nodes are on same level 
 complete binary tree:- if all levels are completely filled except possibly the last level + last level must have all keys left aligned 
 degenerate tree:- every parent node has exactly one child 2 types:-1 left skewed all child left and 2 right skewed all child right 
+
+trees can represented using array and linked list but linked list is better as in array lot of changesis to be made for every transition 
+
+traversal:-
+preorder:-root->left subtree->right subtree
+postorder:- left subtree->right subtree->root
+inorder:- left subtree->root->right subtree 
