@@ -27,3 +27,9 @@ traversal:-
 preorder:-root->left subtree->right subtree
 postorder:- left subtree->right subtree->root
 inorder:- left subtree->root->right subtree 
+
+binary search tree:-
+all the nodes of the left subtree are smaller 
+all the nodes of the right subtree are greater 
+left and right subtree are also bst and no duplicate node
+in order raversal of a bst is the ascending order 
