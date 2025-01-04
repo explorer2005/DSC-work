@@ -33,3 +33,9 @@ all the nodes of the left subtree are smaller
 all the nodes of the right subtree are greater 
 left and right subtree are also bst and no duplicate node
 in order raversal of a bst is the ascending order 
+
+deletion in a bst is of 3 types:-
+1;- the node is a leaf node 
+2:- the node is a non leaf node 
+3:- the node is the root node 
+left majaka right most udao is the logicof the inorderpre 
