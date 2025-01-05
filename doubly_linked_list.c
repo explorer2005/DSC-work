@@ -13,6 +13,50 @@ struct node * createNode(int data){
     n->next=NULL;
     return n;
 }
+struct node *deleteStart(struct node *head){
+    struct node *temp=head;
+    if(head!=NULL){
+        head=head->next;
+        head->prev=NULL;
+    }
+    free(temp);
+    return head;
+    
+}
+struct node *deleteEnd(struct node *head){
+    struct node *temp=head;
+    while(temp->next!=NULL){
+        temp=temp->next;
+    }
+    if(temp->prev!=NULL){
+    temp->prev->next=NULL;
+    }else{
+        head=NULL;
+    }
+    free(temp);
+    return head;
+
+}
+struct node *deleteAtIndex(struct node *head, int index){
+    struct node* temp=head;
+    struct node* temp2;
+    int i=0;
+    while(i!=index-1){
+        temp=temp->next;
+        if(temp==NULL){
+            return head;
+        }
+        i++;
+    }
+    if(temp->prev!=NULL){
+    temp->prev->next=temp->next;
+    }
+    if(temp->next!=NULL){
+        temp->next->prev=temp->prev;
+    }
+    free(temp);
+    return head;
+}
 struct node * insertStart(struct node *head, int data){
     struct node *temp = createNode(data);
     temp->next=head;
@@ -91,6 +135,15 @@ int main(){
     printf("\n");
     frontdisplay(n1);
     n1=insertAtIndex(n1,700,2);
+    printf("\n");
+    frontdisplay(n1);
+    n1=deleteStart(n1);
+    printf("\n");
+    frontdisplay(n1);
+    n1=deleteEnd(n1);
+    printf("\n");
+    frontdisplay(n1);
+    n1=deleteAtIndex(n1,3);
     printf("\n");
     frontdisplay(n1);
 }
