@@ -39,3 +39,30 @@ deletion in a bst is of 3 types:-
 2:- the node is a non leaf node 
 3:- the node is the root node 
 left majaka right most udao is the logicof the inorderpre 
+
+AVLTrees:-
+to convert list type binary tree into the least height binary tree
+balance factor= height of right subtree-height of left subtree;
+bf can be -1 0 1 only 
+for balancing the al tree rotations are performed  
+1:-ll rotation insertionis left of left;  1 rotation for avl- rotation in right wrt imbalanced node
+2:-rr rotation insertions right of right; 1 rotation for avl- rotation in left wrt imbalanced node
+3:-rl rotation insertions right->left;    2 rotation for avl- one roration in right then in left wrt imbalanced node.
+4:-lr rotation insertions left->right;    3 rotation for avl -one rotation in left then in right wrt imbalanced node.
+
+2 operations:-
+1:- right rotation wrt node:- node moves towards right
+2:- left rotation wrt node :- node moves towards left
+
+graph:-
+indegree:- kitni edges ari haan us node ki taraf
+outdegree:- kitni edges jari han us node se 
+if cost is zero then in the remiaing fill -1
+
+2 algorithms for graph traversal:-
+breadth first search:- queue data structure is used 
+depth first search:- stack data structure is used.
+
+bfs m1:-
+level order traversal after selecting one node and removing the connections to make it a tree is known as bfs 
+m2:- exploration queue and adding to the visited the visited is the bfs      
