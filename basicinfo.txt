@@ -77,4 +77,19 @@ spanning tree:- acyclic(no cycles), subgraph hona chaiya, connectedhona chaiya, 
 no of spanning trees from connected graph:- n^(n-2) where n is no of vertices 
 cost of a spanning tree is the summation of all the routes 
 minimum cost of spanning tree is the least amount in which a tree can be spanned  
-prims algo to fing the min spanning tree:-
+prims algo to find the min spanning tree:- finding the least cost of the path 
+
+heap tree:- 
+1:-tree must be almost complete binary tree:- that is first complete the given level phele left bharo fir right and uska baad niche wala levwel pa jau na ki directly niche wala level pa chala jao 
+max heap:- root is the maximum of all and at each node parent must be greater than the child 
+min heap:- root is the minimum of all and at each node parent must be smaller than the child 
+
+if inserted one by one in the given order then tc is o(n log n), or use heapify method then tc ic o(n)
+
+on deletion in heap tree root is deleted and the rightmost element at the leaf node is called as the root and then convert it into heap tree 
+heapify:- first of all ignore all head nodes start wuth a level above it.and modify according to req that is either max or min heap 
+in deletion either the root or the right most leaf node is deleted in a heap tree 
+heap sort is inplace, unstable and deletion tc is o(n logn) 
+
+priority queue is not compulsorily the fifo algo 
+element having highest priority is deleted first (smaller then smallest highest priority and same for larger)
