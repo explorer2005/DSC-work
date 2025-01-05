@@ -68,3 +68,13 @@ level order traversal after selecting one node and removing the connections to m
 m2:- exploration queue and adding to the visited the visited is the bfs      
 
 in dfs no need of stack implementation spearately as functions itself do stacking
+
+a subgraph is that whose edges and vertices are subset of main graph 
+connected graph:- yadi 2 point lia to pakka there is one or more paths to reach there otherwose disconnected graph
+complete graph:- undirected graph with all the nodes connected with unique edge 
+spanning tree:- acyclic(no cycles), subgraph hona chaiya, connectedhona chaiya, all vertices should be there and no of edges vertices-1;
+
+no of spanning trees from connected graph:- n^(n-2) where n is no of vertices 
+cost of a spanning tree is the summation of all the routes 
+minimum cost of spanning tree is the least amount in which a tree can be spanned  
+prims algo to fing the min spanning tree:-
