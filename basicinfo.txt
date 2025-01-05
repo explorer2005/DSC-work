@@ -66,3 +66,5 @@ depth first search:- stack data structure is used.
 bfs m1:-
 level order traversal after selecting one node and removing the connections to make it a tree is known as bfs 
 m2:- exploration queue and adding to the visited the visited is the bfs      
+
+in dfs no need of stack implementation spearately as functions itself do stacking
