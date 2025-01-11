@@ -42,6 +42,12 @@ void display(struct polynomial p){
             if(first){
                printf("%dx^%d",p.coeff[i],i);
                first=0;
+
+            }
+            else{
+               printf(" + %dx^%d",p.coeff[i],i);
+            }
+        }
     }
 }
 // void display(struct polynomial p){
