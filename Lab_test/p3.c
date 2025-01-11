@@ -40,13 +40,8 @@ void display(struct polynomial p){
     for(int i=p.degree;i>=0;i--){
         if(p.coeff[i]!=0){
             if(first){
-        printf("%dx^%d",p.coeff[i],i);
-
-            }
-            else{
-printf(" + %dx^%d",p.coeff[i],i);
-            }
-        }
+               printf("%dx^%d",p.coeff[i],i);
+               first=0;
     }
 }
 // void display(struct polynomial p){
