@@ -23,3 +23,7 @@ adt is abstarct data type whch tells about some features and operation that are 
 it provides a model for its usage 
 abstraction means no worry about implemention that is mango khao guthlia mat gino
 for example in array set and get is direct but ghapla hota ha insertion and delition ma 
+
+
+
+faltu day 1
