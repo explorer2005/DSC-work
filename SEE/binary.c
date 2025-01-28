@@ -6,10 +6,15 @@ void selectionSort(int arr[],int n){
             if(arr[j]<arr[i]){
                 min=j;
             }
+            int temp=arr[i];
+            arr[i]=arr[min];
+            arr[min]=temp;
         }
-        int temp=arr[i];
-        arr[i]=arr[min];
-        arr[min]=temp;
+        
+    }
+    printf("The sorted array is:\n");
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
     }
 }
 void binarySearch(int arr[],int n,int s,int e,int k){
