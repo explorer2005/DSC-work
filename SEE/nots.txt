@@ -1,0 +1,20 @@
+in queues
+enqueue 
+rear->next=newNode;
+return newNode; 
+
+in stacks 
+in push.
+newNode->next=top;
+in pop top=top->next;
+return newNode;
+
+traversal insert root==null
+
+for loops condition in deleete and insert in doubly ll
+
+front and rear updates same in circular queue 
+
+in transpose fix the no of columns 
+
+addpoly using  ll ma input ma **
